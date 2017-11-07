@@ -103,7 +103,9 @@
             android:textSize="24sp"
             android:textColor="@android:color/black"
             android:layout_toRightOf="@id/website_image_view"
-            android:text="kfc-arabia.com"/>
+            android:text="http://www.kfc-arabia.com"
+            android:autoLink="web"
+            android:textColorLink="@android:color/holo_blue_dark"/>
     </RelativeLayout>
 
 </LinearLayout>
