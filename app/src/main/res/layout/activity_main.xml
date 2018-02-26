@@ -30,91 +30,58 @@
             android:padding="16dp"/>
 
         <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:paddingTop="16dp"
-            android:paddingLeft="16dp" >
+            style="@style/RelativeLayoutStyle" >
 
             <ImageView
                 android:id="@+id/clock_image_view"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:paddingRight="16dp"
+                style="@style/IconStyle"
                 android:src="@drawable/clock"/>
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textSize="24sp"
-                android:textColor="@android:color/black"
+                style="@style/TextStyle"
                 android:layout_toRightOf="@id/clock_image_view"
                 android:layout_centerVertical="true"
                 android:text="@string/hours"/>
         </RelativeLayout>
 
         <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:paddingTop="16dp"
-            android:paddingLeft="16dp" >
+            style="@style/RelativeLayoutStyle" >
 
             <ImageView
                 android:id="@+id/location_image_view"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:paddingRight="16dp"
+                style="@style/IconStyle"
                 android:src="@drawable/location"/>
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textSize="24sp"
-                android:textColor="@android:color/black"
+                style="@style/TextStyle"
                 android:layout_toRightOf="@id/location_image_view"
                 android:text="@string/address"/>
         </RelativeLayout>
 
         <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:paddingTop="16dp"
-            android:paddingLeft="16dp" >
+            style="@style/RelativeLayoutStyle" >
 
             <ImageView
                 android:id="@+id/phone_image_view"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:paddingRight="16dp"
+                style="@style/IconStyle"
                 android:src="@drawable/phone"/>
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textSize="24sp"
-                android:textColor="@android:color/black"
+                style="@style/TextStyle"
                 android:layout_toRightOf="@id/phone_image_view"
-                android:text="phone_number"/>
+                android:text="@string/phone_number"/>
         </RelativeLayout>
 
         <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:paddingTop="16dp"
-            android:paddingLeft="16dp"
-            android:paddingBottom="16dp">
+            style="@style/RelativeLayoutStyle" >
 
             <ImageView
                 android:id="@+id/website_image_view"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:paddingRight="16dp"
+                style="@style/IconStyle"
                 android:src="@drawable/website"/>
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textSize="24sp"
-                android:textColor="@android:color/black"
+                style="@style/TextStyle"
                 android:layout_toRightOf="@id/website_image_view"
                 android:text="@string/website"
                 android:autoLink="web"
