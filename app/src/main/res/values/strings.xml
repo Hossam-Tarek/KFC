@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">KFC</string>
+
+    <string name="description">
+        KFC is the largest chicken restaurant brand in the world. Everyday KFC serves nearly
+        8 million customers in its 15,000 outlets located in over 100 countries worldwide.
+    </string>
 </resources>
