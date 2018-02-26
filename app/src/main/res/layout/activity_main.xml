@@ -31,6 +31,29 @@
         android:paddingLeft="16dp" >
 
         <ImageView
+            android:id="@+id/clock_image_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="16dp"
+            android:src="@drawable/clock"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textColor="@android:color/black"
+            android:layout_toRightOf="@id/clock_image_view"
+            android:layout_centerVertical="true"
+            android:text="@string/hours"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:paddingLeft="16dp" >
+
+        <ImageView
             android:id="@+id/location_image_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
