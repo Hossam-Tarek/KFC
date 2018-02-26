@@ -71,7 +71,7 @@
                 android:textSize="24sp"
                 android:textColor="@android:color/black"
                 android:layout_toRightOf="@id/location_image_view"
-                android:text="128 Sudan Street - Giza"/>
+                android:text="@string/address"/>
         </RelativeLayout>
 
         <RelativeLayout
@@ -93,7 +93,7 @@
                 android:textSize="24sp"
                 android:textColor="@android:color/black"
                 android:layout_toRightOf="@id/phone_image_view"
-                android:text="19019"/>
+                android:text="phone_number"/>
         </RelativeLayout>
 
         <RelativeLayout
@@ -116,7 +116,7 @@
                 android:textSize="24sp"
                 android:textColor="@android:color/black"
                 android:layout_toRightOf="@id/website_image_view"
-                android:text="http://www.kfc-arabia.com"
+                android:text="@string/website"
                 android:autoLink="web"
                 android:textColorLink="@android:color/holo_blue_dark"/>
         </RelativeLayout>

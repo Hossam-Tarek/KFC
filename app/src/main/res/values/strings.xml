@@ -7,4 +7,10 @@
     </string>
 
     <string name="hours">24 hour</string>
+
+    <string name="address">128 Sudan Street - Giza</string>
+
+    <string name="phone_number">19019</string>
+
+    <string name="website">http://www.kfc-arabia.com</string>
 </resources>
