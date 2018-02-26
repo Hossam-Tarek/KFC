@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -8,116 +8,122 @@
     android:orientation="vertical"
     tools:context="com.example.hossam.kfc.MainActivity">
 
-    <ImageView
-        android:id="@+id/kfc_image_view"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:scaleType="centerCrop"
-        android:src="@drawable/kfc"/>
-
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="22sp"
-        android:textColor="@android:color/black"
-        android:text="@string/description"
-        android:padding="16dp"/>
-
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingTop="16dp"
-        android:paddingLeft="16dp" >
+        android:orientation="vertical">
 
         <ImageView
-            android:id="@+id/clock_image_view"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:paddingRight="16dp"
-            android:src="@drawable/clock"/>
+            android:id="@+id/kfc_image_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/kfc"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="24sp"
+            android:textSize="22sp"
             android:textColor="@android:color/black"
-            android:layout_toRightOf="@id/clock_image_view"
-            android:layout_centerVertical="true"
-            android:text="@string/hours"/>
-    </RelativeLayout>
+            android:text="@string/description"
+            android:padding="16dp"/>
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingTop="16dp"
-        android:paddingLeft="16dp" >
-
-        <ImageView
-            android:id="@+id/location_image_view"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:paddingRight="16dp"
-            android:src="@drawable/location"/>
-
-        <TextView
+        <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="24sp"
-            android:textColor="@android:color/black"
-            android:layout_toRightOf="@id/location_image_view"
-            android:text="128 Sudan Street - Giza"/>
-    </RelativeLayout>
+            android:paddingTop="16dp"
+            android:paddingLeft="16dp" >
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingTop="16dp"
-        android:paddingLeft="16dp" >
+            <ImageView
+                android:id="@+id/clock_image_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="16dp"
+                android:src="@drawable/clock"/>
 
-        <ImageView
-            android:id="@+id/phone_image_view"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:paddingRight="16dp"
-            android:src="@drawable/phone"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:textColor="@android:color/black"
+                android:layout_toRightOf="@id/clock_image_view"
+                android:layout_centerVertical="true"
+                android:text="@string/hours"/>
+        </RelativeLayout>
 
-        <TextView
+        <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="24sp"
-            android:textColor="@android:color/black"
-            android:layout_toRightOf="@id/phone_image_view"
-            android:text="19019"/>
-    </RelativeLayout>
+            android:paddingTop="16dp"
+            android:paddingLeft="16dp" >
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingTop="16dp"
-        android:paddingLeft="16dp"
-        android:paddingBottom="16dp">
+            <ImageView
+                android:id="@+id/location_image_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="16dp"
+                android:src="@drawable/location"/>
 
-        <ImageView
-            android:id="@+id/website_image_view"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:paddingRight="16dp"
-            android:src="@drawable/website"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:textColor="@android:color/black"
+                android:layout_toRightOf="@id/location_image_view"
+                android:text="128 Sudan Street - Giza"/>
+        </RelativeLayout>
 
-        <TextView
+        <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="24sp"
-            android:textColor="@android:color/black"
-            android:layout_toRightOf="@id/website_image_view"
-            android:text="http://www.kfc-arabia.com"
-            android:autoLink="web"
-            android:textColorLink="@android:color/holo_blue_dark"/>
-    </RelativeLayout>
+            android:paddingTop="16dp"
+            android:paddingLeft="16dp" >
 
+            <ImageView
+                android:id="@+id/phone_image_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="16dp"
+                android:src="@drawable/phone"/>
 
-</LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:textColor="@android:color/black"
+                android:layout_toRightOf="@id/phone_image_view"
+                android:text="19019"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:paddingLeft="16dp"
+            android:paddingBottom="16dp">
+
+            <ImageView
+                android:id="@+id/website_image_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="16dp"
+                android:src="@drawable/website"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:textColor="@android:color/black"
+                android:layout_toRightOf="@id/website_image_view"
+                android:text="http://www.kfc-arabia.com"
+                android:autoLink="web"
+                android:textColorLink="@android:color/holo_blue_dark"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>
 
 
 
